@@ -10,7 +10,7 @@ cd /Users/shlyuevd/Dropbox/WORKSHOPS/DS4A/import_citibikes
 
 
 YEAR=2016
-touch=${YEAR}_all_months.txt # if you start over, you need to remove this file. We append to this file, without overwriting!
+touch ${YEAR}_all_months.txt # if you start over, you need to remove this file. We append to this file, without overwriting!
 for f in 01 02 03 04 05 06 07 08 09 10 11 12; do
  
  echo -en "currenlty working on $f"
